@@ -17,8 +17,7 @@ public class Metodos {
 		int edad;
 		boolean correcto=true;
 		Scanner sc=new Scanner (System.in);
-		while(correcto) {
-		try {
+		
 			
 			System.out.println("Añade un@ nuev@ usuari@s");
 			System.out.println("Introduce nombre");
@@ -29,6 +28,8 @@ public class Metodos {
 			ciudad=sc.nextLine();
 			System.out.println("Está buen@?");
 			fisico=sc.nextLine();
+			while(correcto) {
+				try {
 			System.out.println("Introduce edad");
 			edad=sc.nextInt();
 			
